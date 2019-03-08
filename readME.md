@@ -46,6 +46,8 @@ We are expecting some kind of simple visualization (graph, tree, ...)
 
 *For point 1, parsing the query will be necessary. We can assume the shape of the tables in the scripts will always be `dataset_name.table_name`
 
+*Your code should be flexible enough so that it will still work properly if more scripts are added in any folder
+
 
 *You can use the following dummy function as a placeholder for the function actually running the sql scripts (in go):
 
