@@ -48,8 +48,9 @@ We are expecting some kind of simple visualization (graph, tree, ...)
 
 *Your code should be flexible enough so that it will still work properly if more scripts are added in any folder
 
+*We do not ask for an actual database implementation. The whole 'running the query and saving it inside a table' part should be abstracted with a dummy function. Please focus on the code.
 
-*You can use the following dummy function as a placeholder for the function actually running the sql scripts (in go):
+*You can use the following dummy function as a placeholder for the function actually running the sql scripts (here in golang):
 
 ```go
 func() {
